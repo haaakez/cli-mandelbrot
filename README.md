@@ -9,3 +9,11 @@ requires linux x86-64, gcc and mpfr
 gcc -O2 -no-pie mandelbrot.s -lmpfr -o mandelbrot
 ./mandelbrot
 ```
+
+## run with nix
+
+requires the nix package manager
+
+```sh
+nix run github:haaakez/cli-mandelbrot
+```
